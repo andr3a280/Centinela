@@ -9,18 +9,27 @@
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
 
+
 /* Core CSS required for Ionic components to work properly */
+
 @import "~@ionic/angular/css/core.css";
 
 /* Basic CSS for apps built with Ionic */
+
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
 @import '~@ionic/angular/css/display.css';
 
 /* Optional CSS utils that can be commented out */
+
 @import "~@ionic/angular/css/padding.css";
 @import "~@ionic/angular/css/float-elements.css";
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+body {
+    --ion-toolbar-background: linear-gradient(197deg, rgb(71, 172, 255) 0%, rgb(22, 143, 199) 13.5%, rgb(10, 109, 175) 33.33%, rgb(15, 47, 73) 100%) !important;
+    --ion-tab-bar-background: linear-gradient(197deg, rgb(71, 172, 255) 0%, rgb(22, 143, 199) 13.5%, rgb(10, 109, 175) 33.33%, rgb(15, 47, 73) 100%) !important;
+    --ion-toolbar-color: white;
+}

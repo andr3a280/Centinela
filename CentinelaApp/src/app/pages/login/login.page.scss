@@ -1,0 +1,49 @@
+ion-content {
+    --background: linear-gradient(197deg, rgb(71, 172, 255) 0%, rgb(22, 143, 199) 13.5%, rgb(10, 109, 175) 33.33%, rgb(15, 47, 73) 100%) !important;
+    --color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.lbTitulo {
+    font-size: 40pt;
+}
+
+.contenedor {
+    width: 100%;
+    height: 500px;
+    padding: 5%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+ion-item {
+    --border-radius: 5px;
+    margin-top: 2%;
+}
+
+ion-button {
+    width: 100%;
+}
+
+.btnLogin {
+    --background: rgb(32, 136, 233);
+}
+
+.btnGoogle {
+    --background: white;
+    --color: black;
+}
+
+.btnFacebook {
+    --background: rgb(21, 76, 180);
+}
+
+span {
+    margin-left: 5px;
+}

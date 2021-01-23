@@ -1,0 +1,19 @@
+<ion-menu side="start" contentId="main">
+    <ion-header>
+        <ion-toolbar>
+            <ion-label>Menú de opciones</ion-label>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <ion-menu-toggle *ngFor="let m of menu">
+                <ion-list [routerLink]="m.redirecTo">
+                    <ion-item>
+                        <ion-icon slot="start" [name]="m.icon"></ion-icon>
+                        <ion-label>{{m.name}}</ion-label>
+                    </ion-item>
+                </ion-list>
+            </ion-menu-toggle>
+        </ion-list>
+    </ion-content>
+</ion-menu>

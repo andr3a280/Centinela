@@ -1,0 +1,16 @@
+[{
+        "icon": "home",
+        "name": "Inicio",
+        "redirecTo": "/inicio"
+    },
+    {
+        "icon": "people",
+        "name": "Perfil",
+        "redirecTo": "/perfil"
+    },
+    {
+        "icon": "person",
+        "name": "Añadir usuario",
+        "redirecTo": "/registro"
+    }
+]
